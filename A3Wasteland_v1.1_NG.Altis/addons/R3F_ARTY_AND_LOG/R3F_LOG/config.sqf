@@ -138,7 +138,7 @@ R3F_LOG_CFG_objets_transportables =
 	["Land_ToiletBox_F", 2],
 	["Land_BarrelWater_F", 2],
 	["Land_Pier_F", 150],  
-	["Land_FuelStation_Feed_F", 75],
+	["Land_FuelStation_Feed_F", 75]
 ];
 
 /****** MOVABLE-BY-PLAYER OBJECTS / OBJETS DEPLACABLES PAR LE JOUEUR ******/
