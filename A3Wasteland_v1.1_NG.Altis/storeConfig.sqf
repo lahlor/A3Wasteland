@@ -676,8 +676,7 @@ genObjectsArray = compileFinal str
 	["Scaffolding", "Land_Scaffolding_F", 250, "object"],
 	["Food sacks", "Land_Sacks_goods_F", 5000, "object"], // Added on player request
 	["Water Barrel", "Land_BarrelWater_F", 5000, "object"], // Added on player request
-	["Land Pier (exclusive)", "Land_Pier_F", 250000, "object"],
-	["Fuel Station (exclusive)", "Land_FuelStation_Feed_F", 10000, "object"]
+	["Land Pier (exclusive)", "Land_Pier_F", 250000, "object"]
 ];
 
 allGenStoreVanillaItems = compileFinal str (call genItemArray + call genObjectsArray + call allStoreGear);
