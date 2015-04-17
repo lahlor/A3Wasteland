@@ -71,7 +71,7 @@ if (isServer) then
 };
 
 //init 3rd Party Scripts
-[] execVM "addons\UAV_Control\functions.sqf";
+[] execVM "addons\HvT\HvT.sqf"; //HvT for players
 [] execVM "addons\laptop\init.sqf";		 // hack Laptop mission addon
 [] execVM "addons\Explosives-To-Vehicle\init.sqf"; // addon for explosives to vehicles
 [] execVM "addons\scripts\fn_statusBar.sqf";
