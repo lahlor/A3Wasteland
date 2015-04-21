@@ -294,6 +294,7 @@ player createDiaryRecord ["changelog",
 <br/> [Added] Marksmen DLC Weapon and Loadout Support
 <br/> [Added] Custom view distance settings in player menu
 <br/> [Added] Custom loadout for donator
+<br/> [Added] High value target (Bountyhunt)
 <br/> [Changed] Now you can lock planes/heli and boats as well
 <br/> [Changed] Move iniDB to extDB for better performance
 <br/> [Changed] Raise some prices
