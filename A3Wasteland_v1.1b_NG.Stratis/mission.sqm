@@ -5593,7 +5593,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=156;
+		items=158;
 		class Item0
 		{
 			position[]={4339.3457,226.45149,3824.2236};
@@ -6803,10 +6803,31 @@ class Mission
 			b=150;
 			drawBorder=1;
 		};
+		class Item156
+		{
+			position[]={3017.16,0,2686.83};
+			name="_Base1MarkerDot";
+			text="FOB BWC";
+			type="mil_dot";
+			colorName="ColorGreen";
+			angle=523.98999;
+		};
+		class Item157
+		{
+			position[]={3017.16,0,2686.83};
+			name="_Base1Marker";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="SolidBorder";
+			a=100;
+			b=100;
+			drawBorder=1;
+		};
 	};
 	class Sensors
 	{
-		items=4;
+		items=5;
 		class Item0
 		{
 			position[]={2229.8125,6.9203725,5362.0386};
@@ -6874,6 +6895,26 @@ class Mission
             expCond="(vehicle player) in thislist;";
             expActiv="adminbase = [] execVM ""addons\restrictedArea\adminbase.sqf"";";
             expDesactiv="terminate adminbase; titleText [""You have left the Admin Base!"", ""PLAIN DOWN"", 3];";
+            class Effects
+            {
+                titleType="TEXT";
+                titleEffect="PLAIN DOWN";
+                title="You are entering a restricted zone.";
+            };
+		};
+		class Item4
+		{
+			position[]={3017.16,0,2686.83};
+            a=100;
+            b=100;
+			activationBy="ANY";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="FOB BWC";
+            expCond="(vehicle player) in thislist;";
+            expActiv="FOBBWC = [] execVM ""addons\restrictedArea\FOBBWC.sqf"";";
+            expDesactiv="terminate FOBBWC; titleText [""You have left the Safezone!"", ""PLAIN DOWN"", 3];";
             class Effects
             {
                 titleType="TEXT";

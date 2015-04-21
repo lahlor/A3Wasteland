@@ -49,6 +49,7 @@ addMissionEventHandler ["HandleDisconnect",
 
 //Execute Server Side Scripts.
 [] execVM (externalConfigFolder + "\AdminbaseIDs.sqf");
+[] execVM (externalConfigFolder + "\FOBBWCIDs.sqf");
 [] execVM (externalConfigFolder + "\Donator.sqf");
 call compile preprocessFileLineNumbers "server\antihack\setup.sqf";
 [] execVM "server\admins.sqf";
