@@ -54,6 +54,7 @@ call compile preprocessFileLineNumbers "server\antihack\setup.sqf";
 [] execVM (externalConfigFolder + "\MHIDs.sqf");
 [] execVM (externalConfigFolder + "\TBEIDs.sqf");
 [] execVM (externalConfigFolder + "\VTIDs.sqf");
+[] execVM (externalConfigFolder + "\ATIDs.sqf");
 [] execVM "server\admins.sqf";
 [] execVM "server\functions\serverVars.sqf";
 _serverCompileHandle = [] spawn compile preprocessFileLineNumbers "server\functions\serverCompile.sqf"; // scriptDone stays stuck on false when using execVM on Linux

@@ -3262,7 +3262,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=189;
+		items=191;
 		class Item0
 		{
 			position[]={3612.1487,12.11851,13020.892};
@@ -4728,10 +4728,31 @@ class Mission
 			colorName="ColorYellow";
 			angle=523.98999;
 		};
+		class Item189
+		{
+			position[]={12090.9,0,10493.9};
+			name="_Base5MarkerDot";
+			text="(AT)";
+			type="mil_dot";
+			colorName="ColorGreen";
+			angle=523.98999;
+		};
+		class Item190
+		{
+			position[]={12090.9,0,10493.9};
+			name="_Base5Marker";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="SolidBorder";
+			a=150;
+			b=150;
+			drawBorder=1;
+		};
 	};
 	class Sensors
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			position[]={16711.3,0,20579};
@@ -4883,6 +4904,26 @@ class Mission
 			class Effects
 			{
 			};
+		};
+		class Item8
+		{
+			position[]={12090.9,0,10493.9};
+            a=150;
+            b=150;
+			activationBy="ANY";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="AT";
+            expCond="(vehicle player) in thislist;";
+            expActiv="at = [] execVM ""addons\restrictedArea\at.sqf"";";
+            expDesactiv="terminate at; titleText [""You have left your safe zone!"", ""PLAIN DOWN"", 3];";
+            class Effects
+            {
+                titleType="TEXT";
+                titleEffect="PLAIN DOWN";
+                title="You are entering a restricted zone.";
+            };
 		};
 	};
 };
