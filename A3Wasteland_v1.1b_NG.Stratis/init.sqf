@@ -74,7 +74,7 @@ if (isServer) then
 [] execVM "addons\HvT\HvT.sqf"; //HvT for players
 [] execVM "addons\Explosives-To-Vehicle\init.sqf"; // addon for explosives to vehicles
 [] execVM "addons\laptop\init.sqf";		 // hack Laptop mission addon
-[] execVM "addons\scripts\fn_statusBar.sqf";
+//[] execVM "addons\scripts\fn_statusBar.sqf";
 [] execVM "addons\outlw_magRepack\MagRepack_init_sv.sqf";
 [] execVM "addons\scripts\intro.sqf";
 [] execVM "addons\vactions\functions.sqf";
@@ -82,3 +82,4 @@ if (isServer) then
 [] execVM "addons\proving_ground\init.sqf";
 [] execVM "addons\scripts\DynamicWeatherEffects.sqf";
 [] execVM "addons\JumpMF\init.sqf";
+if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; //new Statusbar
