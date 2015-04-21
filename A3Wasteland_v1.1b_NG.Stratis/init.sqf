@@ -71,6 +71,7 @@ if (isServer) then
 };
 
 //init 3rd Party Scripts
+[] execVM "addons\APOC_Airdrop_Assistance\init.sqf"; //new airdrop
 [] execVM "addons\HvT\HvT.sqf"; //HvT for players
 [] execVM "addons\Explosives-To-Vehicle\init.sqf"; // addon for explosives to vehicles
 [] execVM "addons\laptop\init.sqf";		 // hack Laptop mission addon
