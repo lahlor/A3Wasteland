@@ -71,10 +71,11 @@ if (isServer) then
 };
 
 //init 3rd Party Scripts
+[] execVM "addons\APOC_Airdrop_Assistance\init.sqf"; // new airdrop
 [] execVM "addons\HvT\HvT.sqf"; //HvT for players
 [] execVM "addons\laptop\init.sqf";		 // hack Laptop mission addon
 [] execVM "addons\Explosives-To-Vehicle\init.sqf"; // addon for explosives to vehicles
-[] execVM "addons\scripts\fn_statusBar.sqf";
+//[] execVM "addons\scripts\fn_statusBar.sqf"; //old statusbar
 [] execVM "addons\outlw_magRepack\MagRepack_init_sv.sqf";
 [] execVM "addons\scripts\intro.sqf";
 [] execVM "addons\vactions\functions.sqf";
