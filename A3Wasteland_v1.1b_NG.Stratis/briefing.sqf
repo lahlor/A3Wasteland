@@ -296,7 +296,7 @@ player createDiaryRecord ["changelog",
 <br/> [Added] Custom loadout for donator
 <br/> [Added] High value target (Bountyhunt)
 <br/> [Added] GeoCache Mission
-<br/> [Added] Holster/Unholster Weapon on key "H"
+<br/> [Added] Holster/Unholster Weapon on key -H-
 <br/> [Added] new player HUD
 <br/> [Adjust] Hide body 1000 $
 <br/> [Changed] Airdrop decrease vehicles/added DLC boxes
