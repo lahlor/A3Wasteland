@@ -82,3 +82,5 @@ if (isServer) then
 [] execVM "addons\proving_ground\init.sqf";
 [] execVM "addons\scripts\DynamicWeatherEffects.sqf";
 [] execVM "addons\JumpMF\init.sqf";
+if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; //new statusbar
+
