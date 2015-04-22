@@ -19,7 +19,7 @@ player addEventHandler ["AnimChanged", {
 			_bountyMarker = createMarker ["bountyMarker", getPos (vehicle player)];
 			_bountyMarker setMarkerShape "ICON";
 			_bounty = player getvariable "cmoney";
-			_bountyMarker setMarkerText (format ["High Value Target: %1 (%2$)", name player, _bounty]);
+			_bountyMarker setMarkerText (format ["High Value Target: %1 ($%2)", name player, _bounty]);
 			_bountyMarker setMarkerColor "ColorRed";
 			_bountyMarker setMarkerType "hd_objective";
 			sleep 60;
