@@ -4673,7 +4673,7 @@ class Mission
 		};
 		class Item183
 		{
-			position[]={12090.9,0,10493.9};
+			position[]={28279,0,25758.2};
 			name="_Base4MarkerDot";
 			text="VT";
 			type="mil_dot";
@@ -4682,7 +4682,7 @@ class Mission
 		};
 		class Item184
 		{
-			position[]={12090.9,0,10493.9};
+			position[]={28279,0,25758.2};
 			name="_Base4Marker";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -4815,7 +4815,7 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={12090.9,0,10493.9};
+			position[]={28279,0,25758.2};
             a=150;
             b=150;
 			activationBy="ANY";
