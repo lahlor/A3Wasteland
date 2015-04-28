@@ -10,7 +10,7 @@ _messages = [
 	["Website/Forums", "www.northern-gaming.com"],
 	["Saving", "Check the Server Rules to see saving times."],
 	["ATM / Bank", "You can use any ATM found in Altis."],
-	["Earplugs", "Put in your earplugs by using the END key."]
+	["Keybindings", "Put in your earplugs by using the END key. Holster/Unholster your weapon by using the H key."]
 ];
 
 _timeout = 5;
