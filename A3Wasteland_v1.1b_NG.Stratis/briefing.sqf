@@ -298,7 +298,9 @@ player createDiaryRecord ["changelog",
 <br/> [Added] GeoCache Mission
 <br/> [Added] Holster/Unholster Weapon on key -H-
 <br/> [Added] new player HUD
+<br/> [Added] Weed texture for vehicles
 <br/> [Adjust] Hide body 1000 $
+<br/> [Changed] Airdrop to V1.45
 <br/> [Changed] Airdrop decrease vehicles/added DLC boxes
 <br/> [Changed] Now you can lock planes/heli and boats as well
 <br/> [Changed] Move iniDB to extDB for better performance
