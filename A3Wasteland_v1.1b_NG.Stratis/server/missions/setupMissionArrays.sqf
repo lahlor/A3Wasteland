@@ -28,6 +28,7 @@ SideMissions =
 	["mission_TownInvasion", 2],
 	//["mission_AirWreck", 1.5],
 	//["mission_WepCache", 1.5],
+	["mission_Roadblock", 1],
 	["mission_Outpost", 3],
 	["mission_Truck", 1]
 ];

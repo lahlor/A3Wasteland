@@ -5593,7 +5593,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=158;
+		items=168;
 		class Item0
 		{
 			position[]={4339.3457,226.45149,3824.2236};
@@ -6823,6 +6823,86 @@ class Mission
 			a=100;
 			b=100;
 			drawBorder=1;
+		};
+		class Item158
+		{
+			position[]={2296.8411,4.8562675,5780.1206};
+			name="Roadblock_1";
+			text="Roadblock_1";
+			type="Empty";
+			angle=-96.051041;
+		};
+		class Item159
+		{
+			position[]={2720.7073,2.3146331,5831.3599};
+			name="Roadblock_2";
+			text="Roadblock_2";
+			type="Empty";
+			angle=36.823898;
+		};
+		class Item160
+		{
+			position[]={4061.0793,121.62914,6333.6426};
+			name="Roadblock_3";
+			text="Roadblock_3";
+			type="Empty";
+			angle=83.775398;
+		};
+		class Item161
+		{
+			position[]={3780.5076,194.25854,4818.5298};
+			name="Roadblock_4";
+			text="Roadblock_4";
+			type="Empty";
+			angle=204.272;
+		};
+		class Item162
+		{
+			position[]={5216.3184,158.49461,5806.3096};
+			name="Roadblock_5";
+			text="Roadblock_5";
+			type="Empty";
+			angle=67.154297;
+		};
+		class Item163
+		{
+			position[]={4621.3633,142.54097,5878.9175};
+			name="Roadblock_6";
+			text="Roadblock_6";
+			type="Empty";
+			angle=279.69901;
+		};
+		class Item164
+		{
+			position[]={5014.2378,178.01863,4523.5952};
+			name="Roadblock_7";
+			text="Roadblock_7";
+			type="Empty";
+			angle=223.82683;
+		};
+		class Item165
+		{
+			position[]={4232.5664,211.87906,3557.0884};
+			name="Roadblock_8";
+			text="Roadblock_8";
+			type="Empty";
+			angle=-111.9251;
+		};
+		class Item166
+		{
+			position[]={2911.3477,160.51938,1906.3647};
+			name="Roadblock_9";
+			text="Roadblock_9";
+			type="Empty";
+			angle=52.6506;
+		};
+		class Item167
+		{
+			position[]={2728.9312,47.068398,3834.3999};
+			name="Roadblock_10";
+			text="Roadblock_10";
+			type="Empty";
+			angle=-92.273102;
 		};
 	};
 	class Sensors
