@@ -45,6 +45,11 @@ createGroup2= [_path, "createUnits\Group2.sqf"] call mf_compile;
 createGroup3= [_path, "createUnits\Group3.sqf"] call mf_compile;
 createGroup4= [_path, "createUnits\Group4.sqf"] call mf_compile;
 createGroup5= [_path, "createUnits\Group5.sqf"] call mf_compile;
+createGroup6= [_path, "createUnits\Group6.sqf"] call mf_compile;
+createGroup7= [_path, "createUnits\Group7.sqf"] call mf_compile;
+createGroup8= [_path, "createUnits\Group8.sqf"] call mf_compile;
+createGroup9= [_path, "createUnits\Group9.sqf"] call mf_compile;
+createGroup10= [_path, "createUnits\Group10.sqf"] call mf_compile;
 
 //Function Compiles
 _path = "server\functions";
