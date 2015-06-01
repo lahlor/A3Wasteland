@@ -7,7 +7,9 @@ APOC_AA_VehOptions =
 [ // ["Menu Text",		ItemClassname,				Price,	"Drop Type"]
 ["Quadbike (Civilian)", "C_Quadbike_01_F", 			10000, 	"vehicle"],
 ["Offroad HMG", 		"B_G_Offroad_01_armed_F",	20000, 	"vehicle"],
-["Strider HMG", 		"I_MRAP_03_hmg_F", 			30000, 	"vehicle"]
+["Strider HMG", 		"I_MRAP_03_hmg_F", 			30000, 	"vehicle"],
+["MSE-3 Marid", 		"O_APC_Wheeled_02_rcws_F", 	50000,  "vehicle"],
+["MBT-52 Kuma", 		"I_MBT_03_cannon_F", 		200000,  "vehicle"]
 ];
 
 APOC_AA_SupOptions =
