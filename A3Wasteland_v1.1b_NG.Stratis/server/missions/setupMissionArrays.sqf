@@ -46,7 +46,8 @@ ExtraMissions =
 	["mission_Smugglers", 1],
 	["mission_HostileJet", 0.1],
 	["mission_HackLaptop", 0.5],
-	["mission_GeoCache", 1]
+	["mission_GeoCache", 1],
+	["mission_DrugsRunners", 1]
 ];
 PatrolMissions =
 [

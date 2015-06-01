@@ -76,6 +76,7 @@ if (isServer) then
 [] execVM "addons\AF_Keypad\AF_KP_vars.sqf"; // Keypad for base locking
 [] execVM "addons\APOC_Airdrop_Assistance\init.sqf"; //new airdrop	
 [] execVM "addons\HvT\HvT.sqf"; //HvT for players
+[] execVM "addons\HvT\HvD.sqf"; //HvD
 [] execVM "addons\Explosives-To-Vehicle\init.sqf"; // addon for explosives to vehicles
 [] execVM "addons\laptop\init.sqf";		 // hack Laptop mission addon
 //[] execVM "addons\scripts\fn_statusBar.sqf";
