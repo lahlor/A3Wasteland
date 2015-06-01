@@ -108,6 +108,7 @@ R3F_LOG_CFG_transporteurs =
 
 R3F_LOG_CFG_objets_transportables =
 [
+	["Land_Device_assembled_F", 10], //Re Locker
 	["Static_Designator_01_base_F", 2],
 	["Static_Designator_02_base_F", 2],
 	["StaticWeapon", 5],
@@ -170,6 +171,7 @@ R3F_LOG_CFG_objets_transportables =
 
 R3F_LOG_CFG_objets_deplacables =
 [
+	"Land_Device_assembled_F",
 	"StaticWeapon",
 	"ReammoBox_F",
 	"Kart_01_Base_F",
