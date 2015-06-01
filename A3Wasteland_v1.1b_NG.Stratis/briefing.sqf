@@ -301,6 +301,9 @@ player createDiaryRecord ["changelog",
 <br/> [Added] Weed texture for vehicles
 <br/> [Added] Roadblock and Air Wreck missions
 <br/> [Added] Base relocker (It is hackable and destroyable)
+<br/> [Added] Drugs to store
+<br/> [Added] Drugs to missions
+<br/> [Added] High value target (Drugs)
 <br/> [Adjust] Hide body 1000 $
 <br/> [Changed] Airdrop to V1.45
 <br/> [Changed] Airdrop decrease vehicles/added DLC boxes
