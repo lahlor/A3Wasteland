@@ -58,6 +58,10 @@ loadScreen = "mapConfig\Loading.jpg";
 #include "client\systems\hud\dialog\downloadData.hpp"
 #include "addons\beacondetector\sound\cfgsounds.hpp"
 #include "addons\taw_vd\dialog.hpp"
+#include "addons\BoS\dialog\BoS_mainMenu.hpp"
+#include "addons\AF_Keypad\AF_KP_defines.hpp"
+#include "addons\AF_Keypad\AF_KP_dialogs.hpp"
+
 
 class RscTitles
 {

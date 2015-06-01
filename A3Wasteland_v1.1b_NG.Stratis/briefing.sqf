@@ -300,6 +300,7 @@ player createDiaryRecord ["changelog",
 <br/> [Added] new player HUD
 <br/> [Added] Weed texture for vehicles
 <br/> [Added] Roadblock and Air Wreck missions
+<br/> [Added] Base relocker (It is hackable and destroyable)
 <br/> [Adjust] Hide body 1000 $
 <br/> [Changed] Airdrop to V1.45
 <br/> [Changed] Airdrop decrease vehicles/added DLC boxes

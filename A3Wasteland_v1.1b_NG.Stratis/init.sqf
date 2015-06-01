@@ -73,6 +73,7 @@ if (isServer) then
 };
 
 //init 3rd Party Scripts
+[] execVM "addons\AF_Keypad\AF_KP_vars.sqf"; // Keypad for base locking
 [] execVM "addons\APOC_Airdrop_Assistance\init.sqf"; //new airdrop	
 [] execVM "addons\HvT\HvT.sqf"; //HvT for players
 [] execVM "addons\Explosives-To-Vehicle\init.sqf"; // addon for explosives to vehicles
